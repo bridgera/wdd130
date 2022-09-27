@@ -87,15 +87,22 @@ p {
 }
 .primary {
   background-color: var(--primary-color);
+  font-family: montserrat;
+  color: #ffffff;
 }
 .secondary {
   background-color: var(--secondary-color);
+  font-family: montserrat;
+  color: #ffffff;
 }
 .accent1 {
   background-color: var(--accent1-color);
+  font-family: montserrat;
+  color: #ffffff;
 }
 .accent2 {
   background-color: var(--accent2-color);
+  font-family: montserrat;
 }
 p.colored {
   background-color: var(--paragraph-background-color);
