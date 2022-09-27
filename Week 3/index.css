@@ -1,0 +1,15 @@
+.blue {
+  color: aqua;
+}
+.big_text {
+  font-size: xx-large;
+}
+.background {
+  background-color: brown;
+}
+
+#big_blue {
+  font-size: 500%;
+  color: rgb(39, 81, 100);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}

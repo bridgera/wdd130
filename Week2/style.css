@@ -4,6 +4,6 @@
   padding: 20px;
   @font-face {
     font-family: face;
-    src: url(./fonts\Axis Extrabold.otf) format("embedded-opentype");
+    src: url(./fonts\Axis Extrabold.otf) format("opentype");
   }
 }
