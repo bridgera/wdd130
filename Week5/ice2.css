@@ -1,0 +1,25 @@
+.container {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img {
+  min-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0px;
+}
+
+.greyBlock {
+  background-color: grey;
+  display: block;
+  width: 100%;
+  height: 500px;
+  color: darkgrey;
+  margin: 0px;
+}
