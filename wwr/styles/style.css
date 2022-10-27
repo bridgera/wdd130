@@ -1,3 +1,9 @@
+@import url("https://use.typekit.net/vtx3tnv.css");
+
+:root {
+  --heading-font: "greycliff-cf";
+  --paragraph-font: "Montserrat", Helvetica, sans-serif;
+}
 #content {
   max-width: 1600px;
   margin: 0 auto;
@@ -11,6 +17,7 @@
   max-width: 1600px;
   margin: 0 auto;
 }
+
 nav a,
 #hero-msg,
 h1,
@@ -28,7 +35,6 @@ main section {
 
 body {
   background-color: #ffffff;
-  padd
 }
 
 header {

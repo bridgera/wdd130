@@ -34,6 +34,7 @@ body {
   padding: 4em;
   font-size: 18px;
   text-align: center;
+  font-family: greycliff-cf;
 }
 img {
   display: block;
@@ -46,6 +47,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: greycliff-cf;
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
 }
