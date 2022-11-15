@@ -45,6 +45,7 @@ p {
   color: #f8f8f8;
   font-family: "articulat-cf";
   font-size: 25px;
+  text-align: center;
 }
 h1,
 h2,
@@ -54,6 +55,7 @@ h5,
 h6 {
   color: rgb(247, 247, 247);
   font-family: "articulat-heavy-cf", sans-serif;
+  text-align: center;
 }
 #content {
   max-width: 1200px;
@@ -121,10 +123,9 @@ h2 {
   grid-gap: 1em;
   margin-top: -20px;
 }
-.end-para {
-  justify-content: center;
+#id {
   text-align: center;
-  font-size: 50px;
+  font-size: 75px;
 }
 img {
   max-width: 100%;
