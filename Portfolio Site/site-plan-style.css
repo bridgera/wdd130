@@ -55,7 +55,7 @@
   --primary-color: #262324;
   --secondary-color: #eaeae5;
   --accent1-color: #f08700;
-  --accent2-color: #1c1b1b;
+  --accent2-color: rgb(29, 27, 27);
 
   /* change the values below to your chosen font(s) */
   --heading-font: "articulat-heavy-cf";
