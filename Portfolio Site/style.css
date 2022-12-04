@@ -1,5 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato");
+@import url("https://p.typekit.net/p.css?s=1&k=jpx8dgq&ht=tk&f=49648.49651.49654&a=121842478&app=typekit&e=css");
+
+@font-face {
+  font-family: "articulat-cf";
+  src: url("https://use.typekit.net/af/912a6a/00000000000000007735fae9/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/912a6a/00000000000000007735fae9/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/912a6a/00000000000000007735fae9/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "articulat-cf";
+  src: url("https://use.typekit.net/af/f3b3e0/00000000000000007735faec/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/f3b3e0/00000000000000007735faec/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/f3b3e0/00000000000000007735faec/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "articulat-heavy-cf";
+  src: url("https://use.typekit.net/af/49e098/00000000000000007735faef/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/49e098/00000000000000007735faef/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/49e098/00000000000000007735faef/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 900;
+  font-stretch: normal;
+}
+
+.tk-articulat-cf {
+  font-family: "articulat-cf", sans-serif;
+}
+.tk-articulat-heavy-cf {
+  font-family: "articulat-heavy-cf", sans-serif;
+}
+
+:root {
+  --heading-font: "articulat-heavy-cf";
+  --paragraph-font: "articulat-cf", Helvetica, sans-serif;
+}
+
 body {
   background-color: rgb(29, 27, 27);
+}
+.divide-line-2 {
+  height: 3px;
+  background: linear-gradient(to right, #f08700, #00a6a6);
+  border-width: 0px;
+  margin-top: 3%;
+  width: 75%;
+}
+.divide-line {
+  margin-top: -3%;
+  margin-bottom: 3%;
+  width: 75%;
+  height: 3px;
+  background: linear-gradient(to right, #f08700, #00a6a6);
+  border-width: 0px;
 }
 #logo {
   margin-top: 3%;
@@ -90,6 +162,7 @@ body {
 
 /* Position the content inside the overlay */
 .overlay-content {
+  font-family: var(--heading-font);
   position: relative;
   top: 25%; /* 25% from the top */
   width: 100%; /* 100% width */
