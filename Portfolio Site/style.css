@@ -55,6 +55,24 @@
   --paragraph-font: "articulat-cf", Helvetica, sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  color: beige;
+}
+
+p {
+  font-family: var(--paragraph-font);
+}
+form {
+  font-family: var(--paragraph-font);
+  color: beige;
+}
+
 body {
   background-color: rgb(29, 27, 27);
 }
@@ -204,4 +222,14 @@ body {
     top: 15px;
     right: 35px;
   }
+}
+
+/* contact page */
+label {
+  color: beige;
+}
+
+#title {
+  display: block;
+  text-align: center;
 }

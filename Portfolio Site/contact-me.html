@@ -5,17 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bridger Allen | Contact Me</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <header>
     <img id="logo" src="./img/0.25x/Asset 1@0.25x.png" alt="Bridger Allen" />
-    <div>
+    <!-- The overlay -->
+    <div id="myNav" class="overlay">
+      <!-- Button to close the overlay navigation -->
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+
+      <!-- Overlay content -->
+      <div class="overlay-content">
+        <a href="./index.html">My Work</a>
+        <a href="./contact-me.html">Contact Me</a>
+        <a href="./resume.html">Resume</a>
+      </div>
+    </div>
+
+    <!-- Use any element to open/show the overlay navigation menu -->
+    <div id="nav-button" onclick="openNav()">+</div>
+
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+    </script>
+    <!-- <div id="navbar">
       <a href="./index.html">My Work</a>
       <a href="./contact-me.html">Contact Me</a>
       <a href="./resume.html">Resume</a>
-    </div>
+    </div> -->
   </header>
+  <hr class="divide-line" />
   <body>
-    <h1>Contact Me!</h1>
+    <h1 id="title">Contact Me</h1>
     <form action="/my-handling-form-page" method="post">
       <ul>
         <li>
@@ -37,15 +66,18 @@
     </form>
   </body>
   <footer>
-    <img
-      class="icon"
-      src="./img/footerIcons/icons8-instagram.svg"
-      alt="instagram"
-    />
-    <img
-      class="icon"
-      src="./img/footerIcons/icons8-youtube-logo.svg"
-      alt="youtube"
-    />
+    <hr class="divide-line-2" />
+    <nav id="navfoot">
+      <img
+        class="icon"
+        src="./img/footerIcons/icons8-instagram.svg"
+        alt="instagram"
+      />
+      <img
+        class="icon"
+        src="./img/footerIcons/icons8-youtube-logo.svg"
+        alt="youtube"
+      />
+    </nav>
   </footer>
 </html>
