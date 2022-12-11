@@ -4,20 +4,48 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bridger Allen | Resume</title>
+    <title>Bridger Allen | My Work</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <header>
     <img id="logo" src="./img/0.25x/Asset 1@0.25x.png" alt="Bridger Allen" />
-    <div>
+    <!-- The overlay -->
+    <div id="myNav" class="overlay">
+      <!-- Button to close the overlay navigation -->
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+
+      <!-- Overlay content -->
+      <div class="overlay-content">
+        <a href="./index.html">My Work</a>
+        <a href="./contact-me.html">Contact Me</a>
+        <a href="./resume.html">Resume</a>
+      </div>
+    </div>
+
+    <!-- Use any element to open/show the overlay navigation menu -->
+    <div id="nav-button" onclick="openNav()">+</div>
+
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+    </script>
+    <!-- <div id="navbar">
       <a href="./index.html">My Work</a>
       <a href="./contact-me.html">Contact Me</a>
       <a href="./resume.html">Resume</a>
-    </div>
+    </div> -->
   </header>
+  <hr class="divide-line" />
   <body>
+    <h1 id="title">Resume</h1>
     <div class="grid-resume">
-      <div class="divide-line"></div>
-      <h1>Resume</h1>
       <div id="first-chunk">
         <img
           id="pfp"
@@ -25,101 +53,109 @@
           alt="Bridger Allen Photo"
         />
         <h3 id="bold-p1">3D Artist / Motion designer</h3>
-        <p id="p1">
-          Bridger.L.Allen@gmail.com · (208)-206-6074 · Based in Idaho I am a
-          dedicated and detail-oriented, creative designer looking for an
-          opportunity to expand my skillset and help your company grow.
-        </p>
+        <div id="p1">
+          <p>Bridger.L.Allen@gmail.com · (208)-206-6074 · Based in Idaho</p>
+          <p>
+            I am a dedicated and detail-oriented, creative designer looking for
+            an opportunity to expand my skillset and help your company grow.
+          </p>
+        </div>
       </div>
-      <div id="skils">
-        <h3>Skills</h3>
-        <p>Blender 3d</p>
-        <p>Adobe After Effects</p>
-        <p>Adobe Premiere</p>
-        <p>Adobe Illustrator</p>
-        <img src="./img/SkillLvels/Skills-03.png" alt="" />
-        <img src="./img/SkillLvels/Skills-03.png" alt="" />
-        <img src="./img/SkillLvels/Skills-03.png" alt="" />
-        <img src="./img/SkillLvels/Skills-03.png" alt="" />
-        <p>Adobe Substance 3D</p>
-        <p>Unreal Engine 5</p>
-        <p>Adobe Photoshop</p>
-        <p>Reality Capture</p>
-        <img src="./img/SkillLvels/Skills-04.png" alt="" />
-        <img src="./img/SkillLvels/Skills-04.png" alt="" />
-        <img src="./img/SkillLvels/Skills-05.png" alt="" />
-        <img src="./img/SkillLvels/Skills-05.png" alt="" />
+      <hr class="divide-line-p" />
+      <h3 class="title">Skills</h3>
+      <div id="skills">
+        <p class="skill-title">Blender 3d</p>
+        <p class="skill-title">Adobe After Effects</p>
+        <p class="skill-title">Adobe Premiere</p>
+        <p class="skill-title">Adobe Illustrator</p>
+        <img class="skill-img" src="./img/SkillLvels/Skills-03.png" alt="" />
+        <img class="skill-img" src="./img/SkillLvels/Skills-03.png" alt="" />
+        <img class="skill-img" src="./img/SkillLvels/Skills-03.png" alt="" />
+        <img class="skill-img" src="./img/SkillLvels/Skills-03.png" alt="" />
+        <p class="skill-title">Adobe Substance 3D</p>
+        <p class="skill-title">Unreal Engine 5</p>
+        <p class="skill-title">Adobe Photoshop</p>
+        <p class="skill-title">Reality Capture</p>
+        <img class="skill-img" src="./img/SkillLvels/Skills-04.png" alt="" />
+        <img class="skill-img" src="./img/SkillLvels/Skills-04.png" alt="" />
+        <img class="skill-img" src="./img/SkillLvels/Skills-05.png" alt="" />
+        <img class="skill-img" src="./img/SkillLvels/Skills-05.png" alt="" />
       </div>
-      <div id="Experience">
-        <h3>3D Modeler and Texture Artist - Book of Mormon Central</h3>
+      <hr class="divide-line-p" />
+      <h3 class="title">Jobs</h3>
+      <div id="experience">
+        <h3 class="job-title">
+          3D Modeler and Texture Artist - Book of Mormon Central
+        </h3>
         <p class="job-length">August 2022 - Present • Provo, Utah</p>
         <ul>
           <li>
-            At this role I produce 3D models for digital replicas of historic
+            • At this role I produce 3D models for digital replicas of historic
             biblical locations.
           </li>
         </ul>
-        <h3>Animated Advertisement Specialist - France Paris Mission</h3>
+        <h3 class="job-title">
+          Animated Advertisement Specialist - France Paris Mission
+        </h3>
         <p class="job-length">October 2021 - July 2022 • Paris , FR</p>
         <ul>
           <li>
-            At this role I produced animated and VFX advertisements ranging from
-            5-120 seconds. Each ad was unique, taught messages of peace, and
-            gave a clear call to action within a short period.
+            • At this role I produced animated and VFX advertisements ranging
+            from 5-120 seconds. Each ad was unique, taught messages of peace,
+            and gave a clear call to action within a short period.
           </li>
           <li>
-            Part of this role included the opportunity to lead the writing team,
-            for production of advertisements as well as the pages “Viral
+            • Part of this role included the opportunity to lead the writing
+            team, for production of advertisements as well as the pages “Viral
             Content.”
           </li>
           <li>
-            In this position I had the opportunity to volunteer under the
+            • In this position I had the opportunity to volunteer under the
             direction of Michael Hansen; former senior director of global sports
             marketing at Nike.
           </li>
         </ul>
-        <h3>Lead Animator - California Roseville Mission</h3>
-        <p class="job-length2">January 2021 - October 2021 · Roseville , CA</p>
+        <h3 class="job-title">Lead Animator - California Roseville Mission</h3>
+        <p class="job-length">January 2021 - October 2021 · Roseville , CA</p>
         <ul>
           <li>
-            In this position I had the incredible opportunity to aid in the
+            • In this position I had the incredible opportunity to aid in the
             production of the 'Learning God's Plan' series.
           </li>
           <li>
-            I better polished my skillset to produce 3D environments to aid in
+            • I better polished my skillset to produce 3D environments to aid in
             the visual story telling of past and modern scripture.
           </li>
           <li>
-            I learned a great deal about team work and creative collaboration
+            • I learned a great deal about team work and creative collaboration
             between different mediums of art to produce one final product.
           </li>
         </ul>
-        <h3>Personal Projects</h3>
+        <h3 class="job-title">Personal Projects</h3>
         <p class="job-length">Now - Forever</p>
         <ul>
           <li>
-            Personal passion projects will always have a place in my heart, you
-            can check out my Instagram to see what I'm working on :)
+            • Personal passion projects will always have a place in my heart,
+            you can check out my Instagram to see what I'm working on :)
           </li>
         </ul>
       </div>
     </div>
-    <div class="divide-line"></div>
-    <button>
-      <a href="./contact-me.html"></a>
-      <h1>contact me</h1>
-    </button>
   </body>
+
   <footer>
-    <img
-      class="icon"
-      src="./img/footerIcons/icons8-instagram.svg"
-      alt="instagram"
-    />
-    <img
-      class="icon"
-      src="./img/footerIcons/icons8-youtube-logo.svg"
-      alt="youtube"
-    />
+    <hr class="divide-line-2" />
+    <nav id="navfoot">
+      <img
+        class="icon"
+        src="./img/footerIcons/icons8-instagram.svg"
+        alt="instagram"
+      />
+      <img
+        class="icon"
+        src="./img/footerIcons/icons8-youtube-logo.svg"
+        alt="youtube"
+      />
+    </nav>
   </footer>
 </html>

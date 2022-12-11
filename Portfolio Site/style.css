@@ -67,6 +67,7 @@ h6 {
 
 p {
   font-family: var(--paragraph-font);
+  color: beige;
 }
 form {
   font-family: var(--paragraph-font);
@@ -321,4 +322,89 @@ button {
   font-size: 25px;
   color: #000;
   font-family: var(--heading-font);
+}
+
+/* RESUME */
+#first-chunk {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  grid-gap: 50px;
+  margin-bottom: -;
+}
+
+li {
+  font-family: var(--paragraph-font);
+  color: beige;
+}
+
+#pfp {
+  grid-column: 1, 2;
+  grid-row: 1;
+  width: 100%;
+}
+
+#bold-p1 {
+  grid-row-start: 1;
+  grid-column: 2, 3;
+  font-size: x-large;
+}
+
+#p1 {
+  grid-row: 2;
+  grid-column: 2;
+  margin-top: -200px;
+  font-size: x-large;
+}
+.title {
+  text-align: center;
+  font-size: xx-large;
+}
+#skills {
+  display: grid;
+  width: 1125px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+}
+
+.divide-line-p {
+  height: 3px;
+  background: linear-gradient(to right, #f08700, #00a6a6);
+  border-width: 0px;
+  margin-bottom: 3%;
+  width: 20%;
+}
+.skill-title {
+  text-align: center;
+  font-size: large;
+}
+.skill-img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#experience {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.job-length {
+  color: #818181;
+  font-size: larger;
+}
+
+li {
+  margin-left: 5%;
+  font-size: larger;
+  color: #a5a5a5;
+}
+
+.job-title {
+  font-size: x-large;
 }
