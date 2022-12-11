@@ -268,7 +268,8 @@ input,
 textarea {
   /* To make sure that all text fields have the same font settings
      By default, textareas have a monospace font */
-  font: 3em sans-serif;
+  font: 2em sans-serif;
+  font-family: var(--paragraph-font);
 
   /* Uniform text field size */
   width: 100%;
@@ -277,7 +278,7 @@ textarea {
   /* Match form field borders */
   border-radius: 15px;
 
-  background-color: rgb(26, 24, 24);
+  background-color: rgb(255, 255, 255);
 }
 
 input:focus,
